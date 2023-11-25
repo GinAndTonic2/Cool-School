@@ -4,9 +4,9 @@ spring:
       max-file-size: 20MB
       max-request-size: 20MB
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/cool_school?autoreconnect=true&createDatabaseIfNotExist=true&characterEncoding=utf8
+    url: jdbc:mysql://monorail.proxy.rlwy.net:49918/railway
     username: root
-    password: root1234
+    password: dHA31a6fbccDBC6CBcEGBh4bh24-eEFH
     driver-class-name: com.mysql.cj.jdbc.Driver
   flyway:
     enabled: true
